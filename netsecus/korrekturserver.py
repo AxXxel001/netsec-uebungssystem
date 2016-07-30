@@ -104,7 +104,8 @@ def mainloop(config):
     ])
     application.db = database.Database(config)
 
+    addr = config('httpd.address')
     port = config('httpd.port')
-    application.listen(port)
+    application.listen(port, address=addr)
     logging.debug("Web server started on port %i.", port)
     tornado.ioloop.IOLoop.instance().start()

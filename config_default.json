@@ -15,6 +15,10 @@
 		"port": 8080
 	},
 	"variables": {},
-	"korrektoren": {},
+	"korrektoren": {
+		"username": "alexander",
+		"passhash": "$pbkdf2-sha256$29000$yHkvRUiJMSZEyNnb.18rhQ$RIpwWd5GZfn/kEAcNVOEqoAprB.2j1beaAQUzWe2nVw"
+
+	},
 	"currentSheet": 0
 }
