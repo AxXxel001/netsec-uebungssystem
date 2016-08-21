@@ -58,10 +58,15 @@ def add_file(self, submission_id, hash, filename, size):
            VALUES(?, ?, ?, ?)""", (submission_id, hash, filename, size))
     self.database.commit()
 
+def debug_print(msg):
+    print("[***]\tDEBUG:  "+msg)
 
 def handle_mail(config, db, imapmail, uid, message):
+    debug_print("neue submission")
     subject = helper.get_header(message, 'Subject', '(none)')
+    debug_print("Subject: "+str(subject))
     if not _match_subject(subject):
+        debug_print("Mail wird weggeschmissen")
         return  # Interactive mail, we don't care about those
 
     alias = message.get('From', 'anonymous')

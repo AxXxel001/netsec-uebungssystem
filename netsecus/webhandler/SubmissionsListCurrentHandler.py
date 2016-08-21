@@ -11,7 +11,7 @@ class SubmissionsListCurrentHandler(NetsecHandler):
         unfinished = 0
 
         for sub in current_submission:
-            if sub.status != "started":
+            if sub['status'] != "started":
                 unfinished = unfinished + 1
 
         self.render('submissions_list', {
