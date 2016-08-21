@@ -5,10 +5,10 @@ keep Mails with Subject Abgabe 99: [@Martin]
 Korrekturmails mit SHA-Summen/Dateigrößen etc.[@Martin]
 Antwortmail auf Abgabe sollte Größen/hashes aller Dateien enthalten [@Martin]
 
-tornado listen nur localhost (mit Konfigurationsoption) [@Alex]
+DONE tornado listen nur localhost (mit Konfigurationsoption) [@Alex]
 mass assigment von Korrekturen [@Alex]
 Punktezahl im Studententeil stimmt nicht bei mehreren submissions/Sheet (Richtig unter Kontakt, falsch unter /student/42) [@Alex]
-Studentenübersicht sollte Blattnummern der submissions anzeigen [@Alex]
+DONE Studentenübersicht sollte Blattnummern der submissions anzeigen [@Alex]
 script to autorestart on changes [@Alex]
 test with deliberately valid/invalid UTF8 [@Alex]
 

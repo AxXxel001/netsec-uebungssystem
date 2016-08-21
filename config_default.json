@@ -7,8 +7,6 @@
 	"mail": {
 		"smtp_server": "mail.uni-duesseldorf.de",
 		"imap_server": "mail.uni-duesseldorf.de",
-		"address": "netsec-abgabe@cs.uni-duesseldorf.de",
-		"password": "Aowu5au7AeL8oomo",
 		"ssl": true,
 	        "label": "Netsec Abgabesystem",
 		"delay": 3,
@@ -19,10 +17,6 @@
 		"port": 8080
 	},
 	"variables": {},
-	"korrektoren": {
-		"alex": "$pbkdf2-sha256$29000$yHkvRUiJMSZEyNnb.18rhQ$RIpwWd5GZfn/kEAcNVOEqoAprB.2j1beaAQUzWe2nVw",
-		"Peter": "",
-		"Hannes": ""
-	},
+	"korrektoren": {},
 	"currentSheet": 0
 }
